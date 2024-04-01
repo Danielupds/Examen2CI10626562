@@ -17,12 +17,5 @@ namespace Formularios.Dal
             return lista;
         }
 
-
-        public void InsertarNombreCompletoDal(NombreCompletoModelos nombreCompletoModelos)
-        {
-            string consulta = "NOMBRE, APELLIDO";
-            conexion.Ejecutar(consulta);
-        }
-
     }
 }

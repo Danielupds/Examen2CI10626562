@@ -16,12 +16,5 @@ namespace Formularios.Bss
         {
             return dal.ListaNombreCompletoDal();
         }
-        
-        public void InsertarNombreCompletoBss(NombreCompletoModelos nombreCompletoModelos)
-        {
-            dal.InsertarNombreCompletoDal(nombreCompletoModelos);
-        }
-        
-        
     }
 }
